@@ -223,9 +223,9 @@ class CardBlock extends Component {
                                       </Col>
                                   </Row>
                                   <Input  maxLength="23"
-                                  type="text"  name="cardnumber" id="cardnumber" className="form-control-lg" placeholder="Card Number" resetplaceholder="Card Number" setplaceholder="1234 1234 1234 1234 123"
+                                  type="text"  name="cardnumber" id="cardnumber" className="form-control-lg" placeholder="Card Number" resetplaceholder="Card Number" setplaceholder="1234 1234 1234 1234"
                                   onChange={(event) => this.validateUserInput(event)} onFocus={(event) => this.mapPlaceholder(event)} onBlur={(event) => {this.cardValidforPost(event) } } value={this.state.fakecardnumber}  />
-                                  <Label for="cardnumber" className="font-italic helper-label">Card Number</Label>
+                                  <Label for="cardnumber" className="font-italic helper-label">Card Number v1</Label>
                                 </Col>
                               </Row>
                           </FormGroup>
